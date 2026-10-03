@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bookmark Test</title>
+    <style>
+        .bookmark-btn {
+            background: none;
+            border: 1px solid #ccc;
+            padding: 8px 12px;
+            cursor: pointer;
+            margin: 5px;
+            border-radius: 4px;
+        }
+        .bookmark-btn.bookmarked {
+            background-color: #ffe6e6;
+            border-color: #ff6b6b;
+        }
+        .enhanced-event-card {
+            border: 1px solid #ddd;
+            padding: 20px;
+            margin: 10px;
+            border-radius: 8px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Bookmark Function Test</h1>
+    
+    <!-- Test event card with two bookmark buttons -->
+    <div class="enhanced-event-card">
+        <h3>Test Event - Departmental Symposium</h3>
+        <p>This is a test event to check bookmark functionality.</p>
+        
+        <!-- Header bookmark button -->
+        <button class="bookmark-btn" onclick="toggleEventBookmark(1)" title="Add bookmark">
+            <span class="bookmark-icon">🤍</span>
+        </button>
+        
+        <!-- Action bookmark button -->
+        <button class="bookmark-btn" onclick="toggleEventBookmark(1)" title="Bookmark event">
+            🤍
+        </button>
+        
+        <div>Event ID: 1</div>
+    </div>
+    
+    <!-- Second test card -->
+    <div class="enhanced-event-card">
+        <h3>Test Event 2 - TechFest</h3>
+        <p>Another test event to verify functionality.</p>
+        
+        <!-- Header bookmark button -->
+        <button class="bookmark-btn" onclick="toggleEventBookmark(2)" title="Add bookmark">
+            <span class="bookmark-icon">🤍</span>
+        </button>
+        
+        <!-- Action bookmark button -->
+        <button class="bookmark-btn" onclick="toggleEventBookmark(2)" title="Bookmark event">
+            🤍
+        </button>
+        
+        <div>Event ID: 2</div>
+    </div>
+
+    <script src="js/utils.js"></script>
+    <script>
+        // Test toast function
+        function showToast(message) {
+            console.log('TOAST:', message);
+            alert(message); // Simple alert for testing
+        }
+
+        // Test bookmark function
+        window.toggleEventBookmark = function(eventId) {
+            console.log('toggleEventBookmark called with eventId:', eventId);
+            
+            try {
+                const isBookmarked = BookmarkManager.toggleBookmark('events', eventId);
+                console.log('Bookmark toggled, new state:', isBookmarked);
+                
+                // Update all bookmark buttons for this event
+                const buttons = document.querySelectorAll(`[onclick*="toggleEventBookmark(${eventId})"]`);
+                console.log('Found bookmark buttons:', buttons.length);
+                
+                buttons.forEach(btn => {
+                    btn.classList.toggle('bookmarked', isBookmarked);
+                    btn.title = isBookmarked ? 'Remove from bookmarks' : 'Add to bookmarks';
+                    
+                    // Update button text/icon based on the button type
+                    const icon = btn.querySelector('.bookmark-icon');
+                    if (icon) {
+                        // This is a bookmark button with an icon span (header button)
+                        icon.textContent = isBookmarked ? '❤️' : '🤍';
+                        console.log('Updated header bookmark button');
+                    } else if (btn.textContent.includes('Bookmarked') || btn.textContent.includes('Bookmark')) {
+                        // This is a text bookmark button
+                        btn.innerHTML = isBookmarked ? '❤️ Bookmarked' : '🤍 Bookmark';
+                        console.log('Updated text bookmark button');
+                    } else {
+                        // This is an icon-only bookmark button (action button)
+                        btn.innerHTML = isBookmarked ? '❤️' : '🤍';
+                        console.log('Updated action bookmark button');
+                    }
+                });
+                
+                // Show toast notification
+                showToast(isBookmarked ? 'Event bookmarked!' : 'Bookmark removed!');
+                console.log('Bookmark function completed successfully');
+            } catch (error) {
+                console.error('Error in toggleEventBookmark:', error);
+            }
+        };
+    </script>
+</body>
+</html>

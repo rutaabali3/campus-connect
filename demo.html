@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>CampusConnect Demo – Enhanced Home Page</title>
+  <meta name="description" content="Demo of the enhanced CampusConnect home page with hero carousel">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+  <style>
+    /* Demo-specific styles */
+    .demo-banner {
+      background: linear-gradient(135deg, #1a202c, #2d3748);
+      color: white;
+      padding: 1rem 0;
+      text-align: center;
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      z-index: 2000;
+      font-size: 0.9rem;
+    }
+    
+    .demo-banner strong {
+      color: #4f46e5;
+    }
+    
+    body {
+      padding-top: 50px;
+    }
+    
+    .site-header {
+      top: 50px;
+    }
+    
+    .hero-carousel {
+      margin-top: -140px;
+      padding-top: 140px;
+    }
+  </style>
+</head>
+<body data-page="home">
+  <div class="demo-banner">
+    🎯 <strong>Demo:</strong> Enhanced CampusConnect Home Page with Hero Carousel & Dynamic Content
+  </div>
+  
+  <header id="site-header" class="site-header"></header>
+  <main id="content" tabindex="-1"></main>
+  <footer id="site-footer" class="site-footer"></footer>
+
+  <script src="js/utils.js"></script>
+  <script src="js/app.js"></script>
+  
+  <script>
+    // Demo-specific enhancements
+    document.addEventListener('DOMContentLoaded', function() {
+      // Add some demo interactions
+      setTimeout(() => {
+        // Add demo tooltips
+        const carousel = document.querySelector('.hero-carousel');
+        if (carousel) {
+          carousel.setAttribute('title', 'Swipe or use arrow keys to navigate slides');
+        }
+        
+        // Add keyboard navigation
+        document.addEventListener('keydown', (e) => {
+          if (e.key === 'ArrowLeft') previousSlide();
+          if (e.key === 'ArrowRight') nextSlide();
+        });
+        
+        // Add demo console logs for interactions
+        const originalNextSlide = window.nextSlide;
+        const originalPreviousSlide = window.previousSlide;
+        
+        window.nextSlide = function() {
+          console.log('📱 Carousel: Moving to next slide');
+          originalNextSlide();
+        };
+        
+        window.previousSlide = function() {
+          console.log('📱 Carousel: Moving to previous slide');
+          originalPreviousSlide();
+        };
+      }, 1000);
+    });
+  </script>
+</body>
+</html>

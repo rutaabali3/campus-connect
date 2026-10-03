@@ -1,0 +1,260 @@
+{
+  "college": {
+    "name": "Excellence Institute of Technology",
+    "establishedYear": 2001,
+    "motto": "Excellence in Education, Innovation in Practice",
+    "vision": "To be a leading institution fostering innovation, research, and holistic development.",
+    "mission": "To provide world-class education that empowers students with knowledge, skills, and values needed to excel in their chosen careers and contribute meaningfully to society.",
+    "description": "Excellence Institute of Technology has been a pioneer in technical education for over two decades. Founded with the vision of creating tomorrow's innovators, our institute has consistently maintained its position as a leading educational institution.",
+    "philosophy": "We believe in nurturing not just academic excellence but also the overall personality development of our students through various cultural, technical, and sports activities.",
+    "coreValues": [
+      {
+        "title": "Excellence",
+        "description": "Striving for the highest standards in everything we do"
+      },
+      {
+        "title": "Innovation", 
+        "description": "Encouraging creative thinking and problem-solving"
+      },
+   
+      {
+        "title": "Inclusivity",
+        "description": "Creating an environment where everyone feels valued"
+      }
+    ],
+    "achievements": [
+      "NAAC A+ Grade Accreditation",
+      "NBA Accredited Programs",
+      "Industry Excellence Award 2023",
+      "Best Innovation Campus 2022"
+    ]
+  },
+  "annualEvents": [
+    {
+      "category": "Technical",
+      "icon": "🔧",
+      "color": "primary",
+      "events": [
+        {
+          "name": "TechFest",
+          "description": "Our flagship technical festival featuring hackathons, coding competitions, project exhibitions, and tech talks by industry experts."
+        },
+        {
+          "name": "Innovation Lab",
+          "description": "Showcasing groundbreaking student research and development projects across various engineering disciplines."
+        },
+        {
+          "name": "Robotics Championship",
+          "description": "Inter-college robotics competition challenging students to build autonomous and remote-controlled robots."
+        }
+      ]
+    },
+    {
+      "category": "Cultural",
+      "icon": "🎭",
+      "color": "warning",
+      "events": [
+        {
+          "name": "Cultural Extravaganza",
+          "description": "A vibrant celebration of arts, music, dance, and literature featuring performances by talented students from all departments."
+        },
+        {
+          "name": "Annual Day",
+          "description": "The grandest celebration of the year with cultural performances, awards ceremonies, and recognition of achievements."
+        },
+        {
+          "name": "Literary Fest",
+          "description": "Poetry recitations, drama competitions, and creative writing contests showcasing our students' artistic talents."
+        }
+      ]
+    },
+    {
+      "category": "Sports",
+      "icon": "🏆",
+      "color": "success",
+      "events": [
+        {
+          "name": "Inter-Departmental Championships",
+          "description": "Competitions in cricket, football, basketball, volleyball, badminton, and athletics."
+        },
+        {
+          "name": "Annual Sports Meet",
+          "description": "A week-long celebration of sportsmanship and athletic excellence with various indoor and outdoor games."
+        },
+        {
+          "name": "Fitness Challenges",
+          "description": "Promoting health and wellness through marathon runs, gym competitions, and fitness awareness programs."
+        }
+      ]
+    },
+    {
+      "category": "Academic",
+      "icon": "🎓",
+      "color": "info",
+      "events": [
+        {
+          "name": "Research Symposium",
+          "description": "Presenting cutting-edge research work by faculty and students in various engineering and science disciplines."
+        },
+        {
+          "name": "Industry Connect",
+          "description": "Career fairs, placement drives, and networking sessions with leading companies and startups."
+        },
+        {
+          "name": "Academic Excellence Awards",
+          "description": "Recognizing outstanding academic achievements, research contributions, and innovative projects."
+        }
+      ]
+    }
+  ],
+  "organizingBodies": [
+    {
+      "name": "Student Council",
+      "icon": "🎯",
+      "color": "primary",
+      "description": "Overall event coordination and student representation",
+      "responsibilities": [
+        "Event planning and execution",
+        "Student welfare initiatives",
+        "Inter-college coordination",
+        "Policy advocacy"
+      ]
+    },
+    {
+      "name": "Cultural Committee",
+      "icon": "🎨",
+      "color": "warning",
+      "description": "Organizing cultural events, art exhibitions, and performances",
+      "responsibilities": [
+        "Cultural program management",
+        "Artist coordination",
+        "Event decoration and ambiance",
+        "Traditional festival celebrations"
+      ]
+    },
+    {
+      "name": "Technical Society",
+      "icon": "💻",
+      "color": "primary",
+      "description": "Managing technical festivals, workshops, and competitions",
+      "responsibilities": [
+        "Technical event organization",
+        "Workshop coordination",
+        "Industry collaboration",
+        "Innovation project support"
+      ]
+    },
+    {
+      "name": "Sports Committee",
+      "icon": "⚽",
+      "color": "success",
+      "description": "Coordinating sports events and fitness activities",
+      "responsibilities": [
+        "Sports event management",
+        "Equipment procurement",
+        "Team coordination",
+        "Fitness program development"
+      ]
+    },
+    {
+      "name": "Academic Affairs",
+      "icon": "📚",
+      "color": "info",
+      "description": "Academic events and research coordination",
+      "responsibilities": [
+        "Academic event planning",
+        "Research symposium management",
+        "Industry-academia liaison",
+        "Career development programs"
+      ]
+    },
+    {
+      "name": "Media & Publicity",
+      "icon": "📢",
+      "color": "secondary",
+      "description": "Event promotion and media coverage",
+      "responsibilities": [
+        "Social media management",
+        "Event photography/videography",
+        "Press release coordination",
+        "Website content management"
+      ]
+    }
+  ],
+  "campus": {
+    "location": "Knowledge City, State",
+    "area": "150 acres",
+    "facilities": [
+      "Modern laboratories and workshops",
+      "Central library with 100,000+ books",
+      "Sports complex with Olympic-size pool",
+      "Auditorium with 2000 seating capacity",
+      "Hostels for 3000+ students",
+      "Research and innovation centers",
+      "Medical center and counseling services",
+      "Wi-Fi enabled smart classrooms"
+    ],
+    "departments": [
+      "Computer Science & Engineering",
+      "Electronics & Communication",
+      "Mechanical Engineering",
+      "Civil Engineering",
+      "Electrical Engineering",
+      "Information Technology",
+      "Biotechnology",
+      "Management Studies"
+    ]
+  },
+  "timeline": [
+    {
+      "month": "January",
+      "event": "Robotics Championship",
+      "description": "Inter-college robotics competition with autonomous robots",
+      "color": "primary",
+      "icon": "🤖"
+    },
+    {
+      "month": "March",
+      "event": "TechFest Opening",
+      "description": "Kickoff of our flagship technical festival",
+      "color": "info",
+      "icon": "🚀"
+    },
+    {
+      "month": "July",
+      "event": "TechFest Grand Finale",
+      "description": "Culmination of technical competitions and exhibitions",
+      "color": "success",
+      "icon": "🏆"
+    },
+    {
+      "month": "August",
+      "event": "Cultural Week",
+      "description": "Vibrant celebration of arts, dance, and music",
+      "color": "warning",
+      "icon": "🎭"
+    },
+    {
+      "month": "September",
+      "event": "Sports Mania",
+      "description": "Inter-departmental sports championships",
+      "color": "success",
+      "icon": "⚽"
+    },
+    {
+      "month": "December",
+      "event": "Annual Day",
+      "description": "Grand celebration with awards and cultural programs",
+      "color": "primary",
+      "icon": "🎉"
+    }
+  ],
+  "statistics": {
+    "totalStudents": 8500,
+    "facultyMembers": 450,
+    "researchProjects": 150,
+    "industryPartnerships": 75,
+    "alumniNetwork": 25000,
+    "placementRate": 95
+  }
+}

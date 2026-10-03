@@ -1,0 +1,127 @@
+{
+  "contacts": {
+  "faculty": [
+  {
+    "id": 1,
+    "name": "Atif Ali Khan",
+    "designation": "Director",
+    "department": "Administration",
+    "phone": "+92-300-1111111",
+    "email": "atif.ali.khan@gmail.com",
+    "image": "images/faculty/atif-ali-khan.jpg",
+    "responsibilities": ["Overall event coordination", "Policy guidance", "Resource allocation"]
+  },
+  {
+    "id": 2,
+    "name": "Muhammad Yousuf",
+    "designation": "Center Manager",
+    "department": "Student Services",
+    "phone": "+92-301-2222222",
+    "email": "yousuf@gmail.com",
+    "image": "images/faculty/muhammad-yousuf.jpg",
+    "responsibilities": ["Cultural events", "Art exhibitions", "Music competitions"]
+  },
+  {
+    "id": 3,
+    "name": "Saeed Ramzan",
+    "designation": "Senior Trainer",
+    "department": "Technical / IT",
+    "phone": "+92-302-3333333",
+    "email": "atif.ali.khan@gmail.com",
+    "image": "images/faculty/saeed-ramzan.jpg",
+    "responsibilities": ["Technical festivals", "Coding competitions", "Innovation labs"]
+  },
+  {
+    "id": 4,
+    "name": "Uzma Khan",
+    "designation": "Admissions Coordinator",
+    "department": "Admissions & Outreach",
+    "phone": "+92-303-4444444",
+    "email": "uzma.khan@gmail.com",
+    "image": "images/faculty/uzma-khan.jpg",
+    "responsibilities": ["Sports events", "Athletic competitions", "Fitness programs"]
+  }
+]
+
+,
+"students": [
+  {
+    "id": 1,
+    "name": "Ahmed Khan",
+    "designation": "Student Council President",
+    "department": "Computer Science",
+    "year": "4th Year",
+    "phone": "+92-300-1111111",
+    "email": "ahmed.khan@gmail.com",
+    "image": "images/students/ahmed-khan.jpg",
+    "responsibilities": ["Student representation", "Event planning", "Inter-college coordination"]
+  },
+  {
+    "id": 2,
+    "name": "Aisha Shah",
+    "designation": "Cultural Secretary",
+    "department": "Fine Arts",
+    "year": "3rd Year",
+    "phone": "+92-301-2222222",
+    "email": "aisha.shah@gmail.com",
+    "image": "images/students/aisha-shah.jpg",
+    "responsibilities": ["Cultural programs", "Artist coordination", "Event decoration"]
+  },
+  {
+    "id": 3,
+    "name": "Bilal Ahmed",
+    "designation": "Technical Secretary",
+    "department": "Engineering",
+    "year": "4th Year",
+    "phone": "+92-302-3333333",
+    "email": "bilal.ahmed@gmail.com",
+    "image": "images/students/bilal-ahmed.jpg",
+    "responsibilities": ["Technical events", "Workshop coordination", "Equipment management"]
+  },
+  {
+    "id": 4,
+    "name": "Sara Raza",
+    "designation": "Sports Secretary",
+    "department": "Sports Science",
+    "year": "2nd Year",
+    "phone": "+92-303-4444444",
+    "email": "sara.raza@gmail.com",
+    "image": "images/students/sara-raza.jpg",
+    "responsibilities": ["Sports coordination", "Team management", "Equipment procurement"]
+  },
+  {
+    "id": 5,
+    "name": "Hassan Mir",
+    "designation": "Event Coordinator",
+    "department": "Business Administration",
+    "year": "3rd Year",
+    "phone": "+92-304-5555555",
+    "email": "hassan.mir@gmail.com",
+    "image": "images/students/hassan-mir.jpg",
+    "responsibilities": ["Event management", "Vendor coordination", "Logistics planning"]
+  },
+  {
+    "id": 6,
+    "name": "Fatima Noor",
+    "designation": "Media & Publicity Head",
+    "department": "Mass Communication",
+    "year": "4th Year",
+    "phone": "+92-305-6666666",
+    "email": "fatima.noor@gmail.com",
+    "image": "images/students/fatima-noor.jpg",
+    "responsibilities": ["Media coverage", "Social media management", "Publicity campaigns"]
+  }
+],
+    "college": {
+      "name": "Aptech North Nazimabad Center",
+      "address": "Aptech Computer Education North Nazimabad Center",
+      "phone": "+92-1234567890",
+      "email": "info@aptechnn.edu",
+      "website": "www.aptechnn.edu",
+      "mapCoordinates": {
+        "latitude": 24.9269,
+        "longitude": 67.0347
+      }
+    }
+  }
+}

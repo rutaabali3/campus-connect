@@ -1,0 +1,159 @@
+{
+  "gallery": [
+    {
+      "id": 1,
+      "title": "TechFest 2023 Opening Ceremony",
+      "image": "https://picsum.photos/600/400?random=10",
+      "category": "Technical",
+      "year": "2023-24",
+      "event": "TechFest 2023",
+      "description": "Grand opening ceremony of TechFest 2023 with distinguished guests",
+      "featured": true,
+      "caption": "The grand opening ceremony of TechFest 2023 marked the beginning of an incredible week of innovation and technology."
+    },
+    {
+      "id": 2,
+      "title": "Coding Competition Winners",
+      "image": "https://picsum.photos/600/400?random=11",
+      "category": "Technical",
+      "year": "2023-24",
+      "event": "TechFest 2023",
+      "description": "Winners of the annual coding competition receiving their awards",
+      "caption": "Celebrating the brilliant minds who conquered our annual coding competition with their exceptional programming skills."
+    },
+    {
+      "id": 3,
+      "title": "Cultural Dance Performance",
+      "image": "https://picsum.photos/600/400?random=12",
+      "category": "Cultural",
+      "year": "2023-24",
+      "event": "Cultural Extravaganza",
+      "description": "Mesmerizing traditional dance performance during cultural night",
+      "featured": true,
+      "caption": "A breathtaking traditional dance performance that captivated the entire audience during our cultural extravaganza."
+    },
+    {
+      "id": 4,
+      "title": "Music Concert",
+      "image": "https://picsum.photos/600/400?random=13",
+      "category": "Cultural",
+      "year": "2023-24",
+      "event": "Cultural Extravaganza",
+      "description": "Live music performance by college band",
+      "caption": "An electrifying musical performance that had the entire college singing along."
+    },
+    {
+      "id": 5,
+      "title": "Cricket Championship Final",
+      "image": "https://picsum.photos/600/400?random=14",
+      "category": "Sports",
+      "year": "2023-24",
+      "event": "Sports Championship",
+      "description": "Exciting final match of inter-departmental cricket tournament",
+      "featured": true,
+      "caption": "The thrilling final match of our inter-departmental cricket tournament showcased incredible sportsmanship and talent."
+    },
+    {
+      "id": 6,
+      "title": "Basketball Action",
+      "image": "https://picsum.photos/600/400?random=15",
+      "category": "Sports",
+      "year": "2023-24",
+      "event": "Sports Championship",
+      "description": "Intense basketball match during sports week",
+      "caption": "High-energy basketball action that kept spectators on the edge of their seats."
+    },
+    {
+      "id": 7,
+      "title": "Research Project Exhibition",
+      "image": "https://picsum.photos/600/400?random=16",
+      "category": "Academic",
+      "year": "2023-24",
+      "event": "Academic Excellence Awards",
+      "description": "Students presenting their innovative research projects",
+      "featured": true,
+      "caption": "Innovative research projects showcasing the incredible potential of our talented students."
+    },
+    {
+      "id": 8,
+      "title": "Award Ceremony",
+      "image": "https://picsum.photos/600/400?random=17",
+      "category": "Academic",
+      "year": "2023-24",
+      "event": "Academic Excellence Awards",
+      "description": "Recognition ceremony for outstanding academic achievements",
+      "caption": "Celebrating academic excellence and honoring our top-performing students."
+    },
+    {
+      "id": 9,
+      "title": "Hackathon Teams",
+      "image": "https://picsum.photos/600/400?random=18",
+      "category": "Technical",
+      "year": "2022-23",
+      "event": "Hackathon 2023",
+      "description": "Teams working intensively during the 24-hour hackathon",
+      "caption": "Intense 24-hour hackathon where creativity and coding skills merged to create amazing solutions."
+    },
+    {
+      "id": 10,
+      "title": "Annual Day Chief Guest",
+      "image": "https://picsum.photos/600/400?random=19",
+      "category": "Cultural",
+      "year": "2022-23",
+      "event": "Annual Day 2023",
+      "description": "Distinguished chief guest addressing the annual day gathering",
+      "featured": true,
+      "caption": "Our esteemed chief guest delivering an inspiring address during the annual day celebration."
+    },
+    {
+      "id": 11,
+      "title": "Drama Performance",
+      "image": "https://picsum.photos/600/400?random=20",
+      "category": "Cultural",
+      "year": "2022-23",
+      "event": "Cultural Fest",
+      "description": "Captivating drama performance by college theater group",
+      "caption": "A mesmerizing theatrical performance that showcased the dramatic talents of our students."
+    },
+    {
+      "id": 12,
+      "title": "Football Tournament",
+      "image": "https://picsum.photos/600/400?random=21",
+      "category": "Sports",
+      "year": "2022-23",
+      "event": "Sports Meet",
+      "description": "Action-packed football match between departments",
+      "caption": "Thrilling football action demonstrating teamwork and athletic excellence."
+    },
+    {
+      "id": 13,
+      "title": "Science Exhibition",
+      "image": "https://picsum.photos/600/400?random=22",
+      "category": "Academic",
+      "year": "2022-23",
+      "event": "Science Fair",
+      "description": "Innovative science projects displayed by students",
+      "caption": "Fascinating scientific discoveries and innovations presented by our budding scientists."
+    },
+    {
+      "id": 14,
+      "title": "Robotics Competition",
+      "image": "https://picsum.photos/600/400?random=23",
+      "category": "Technical",
+      "year": "2022-23",
+      "event": "Tech Symposium",
+      "description": "Exciting robotics competition with autonomous robots",
+      "caption": "Cutting-edge robotics showcasing the future of automation and artificial intelligence."
+    },
+    {
+      "id": 15,
+      "title": "Traditional Art Display",
+      "image": "https://picsum.photos/600/400?random=24",
+      "category": "Cultural",
+      "year": "2022-23",
+      "event": "Art Exhibition",
+      "description": "Beautiful traditional art pieces created by talented students",
+      "caption": "Exquisite traditional artworks celebrating our rich cultural heritage."
+    }
+  ]
+}
